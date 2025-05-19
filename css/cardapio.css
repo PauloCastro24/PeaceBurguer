@@ -287,21 +287,26 @@ img
 }
 .cardapio-botao {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .cardapio-botao .veja {
-    background-color: #e63946; /* Cor de fundo opcional */
+    background-color: #004AAD;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 30px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: inline-block;
 }
 
 .cardapio-botao .veja:hover {
-    background-color: #d62828;
+    background-color: #003580;
+    transform: scale(1.05);
 }
 
 @media (max-width:500px)
@@ -443,5 +448,18 @@ img
     {
         font-size: 15px;
     }
+  .cardapio-botao {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .cardapio-botao .veja {
+    font-size: 14px;
+    padding: 10px 20px;
+    width: auto;
+    display: inline-block;
+  }
+}
+
 
 }
