@@ -274,25 +274,23 @@ img
     color: rgba(0, 0, 0, 0.70);
     
 }
-.veja 
-{
-    position: absolute;
-    top: 127%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.veja {
     width: 327px;
     height: 81px;
     background-color: rgba(0, 0, 0, 0.90);
     color: white;
     text-align: center;
-    scroll-margin: top;
     line-height: 81px;
     font-family: 'Inter', sans-serif;
     font-size: 30px;
     border-radius: 10%;
     text-decoration: none;
     font-weight: bolder;
+    margin: 40px auto;
+    display: block;
+    position: static;
 }
+
 #cop
 {
     margin-left: 1%;
