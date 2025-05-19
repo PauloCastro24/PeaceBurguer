@@ -292,16 +292,17 @@ img
 }
 
 .cardapio-botao .veja {
-    background-color: #004AAD;
+    background-color: #004AAD; /* Azul igual ao cabeçalho */
     color: white;
-    padding: 12px 30px;
+    padding: 12px 24px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
     font-family: 'Inter', sans-serif;
     font-size: 16px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
     display: inline-block;
+    white-space: nowrap; /* Impede quebra de linha */
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .cardapio-botao .veja:hover {
